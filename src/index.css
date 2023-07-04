@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/font/OpenSans.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('./assets/font/Jost-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+* {
+    scroll-behavior: smooth;
+}
+::selection {
+    color: #F4EEFF;
+    background-color: #424874;
+}
+::-webkit-scrollbar-track
+{
+	background-color: #424874;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #F4EEFF;
+    border-left: 1px solid rgba(0, 0, 0, .6);
+}
