@@ -7,7 +7,7 @@ export default function HeaderContainer({ children, isScrolled }) {
             variants={navbar}
             className={
                 "flex sticky top-0 mx-auto transition-all gap-5 items-center rounded-b-md sm:pr-5 pr-1 text-[#323757] text-md sm:text-xl h-[70px] z-50" + 
-                (isScrolled ? " bg-[#ffffff91]" : "")
+                (isScrolled ? " bg-[rgba(255,255,255,0.95)]" : "")
             }
         >
             {children}

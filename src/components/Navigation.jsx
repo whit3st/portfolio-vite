@@ -9,7 +9,7 @@ export default function Navigation({ children }) {
             animate="animate"
             exit="exit"
             variants={navbar}
-            className="flex w-full max-w-[300px] hover:text-gray-400 md:max-w-[450px] justify-between ml-auto transition-all"
+            className="flex w-full max-w-[300px] md:max-w-[450px] justify-between ml-auto transition-all"
         >
             {children}
         </motion.nav>
