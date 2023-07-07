@@ -22,7 +22,7 @@ export default function Home() {
             <ProjectContainer>
                 <ProjectImage src="skyvibes.webp" />
                 <ProjectText>
-                    <SubHeadline>skyvibes.app</SubHeadline>
+                    <SubHeadline>Skyvibes</SubHeadline>
                     <Description>
                         Skyvibes.app is a forecast website that displays current
                         weather conditions and provides a seven-day forecast.
@@ -32,6 +32,26 @@ export default function Home() {
                             Website
                         </SecondaryButton>
                         <SecondaryButton to="https://github.com/whit3st/skyvibes">
+                            Code
+                        </SecondaryButton>
+                    </ButtonContainer>
+                </ProjectText>
+            </ProjectContainer>
+            <ProjectContainer>
+                <ProjectImage src="theeaters.webp" />
+                <ProjectText>
+                    <SubHeadline>The Eaters</SubHeadline>
+                    <Description>
+                        The Eaters is a simple and user-friendly website that
+                        provides you with the recipes of the given dish or
+                        cocktail. With The Eaters, you can easily learn how to
+                        create a dish of your choice!
+                    </Description>
+                    <ButtonContainer>
+                        <SecondaryButton to="https://theeaters.vercel.app/">
+                            Website
+                        </SecondaryButton>
+                        <SecondaryButton to="https://github.com/whit3st/recipe-next">
                             Code
                         </SecondaryButton>
                     </ButtonContainer>
