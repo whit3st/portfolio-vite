@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <motion.footer
             variants={variants}
-            className="flex flex-col items-center gap-5 border-t border-[#424874] py-5"
+            className="flex flex-col items-center gap-5 border-t border-[#424874] py-5 mt-16"
         >
             <section className="flex flex-col items-center">
                 <Description>Alican Akyıldız</Description>

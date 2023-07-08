@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+import { variants } from "../assets/animations/Animations";
 import Button from "../components/Button";
 import ButtonContainer from "../components/ButtonContainer";
 import Container from "../components/Container";
@@ -11,7 +13,7 @@ import SecondaryButton from "../components/SecondaryButton";
 import SubHeadline from "../components/SubHeadline";
 export default function Home() {
     return (
-        <>
+        <motion.div variants={variants} initial="initial" animate="animate" exit="exit">
             <Container>
                 <Headline>Alican Akyıldız</Headline>
                 <SubHeadline>Jr. Frontend Developer</SubHeadline>
@@ -57,6 +59,6 @@ export default function Home() {
                     </ButtonContainer>
                 </ProjectText>
             </ProjectContainer>
-        </>
+        </motion.div>
     );
 }
