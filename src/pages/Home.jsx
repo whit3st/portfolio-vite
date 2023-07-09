@@ -22,7 +22,7 @@ export default function Home() {
             </Container>
             <Headline>Projects</Headline>
             <ProjectContainer>
-                <ProjectImage src="skyvibes.webp" />
+                <ProjectImage src="skyvibes.png" />
                 <ProjectText>
                     <SubHeadline>Skyvibes</SubHeadline>
                     <Description>
@@ -40,7 +40,7 @@ export default function Home() {
                 </ProjectText>
             </ProjectContainer>
             <ProjectContainer>
-                <ProjectImage src="theeaters.webp" />
+                <ProjectImage src="theeaters.png" />
                 <ProjectText>
                     <SubHeadline>The Eaters</SubHeadline>
                     <Description>

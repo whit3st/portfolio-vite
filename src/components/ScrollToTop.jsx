@@ -22,8 +22,8 @@ export default function ScrollToTop() {
         <img
         src="arrow-up.svg"
             onClick={() => window.scrollTo(0, 0)}
-            style={{ display: scrolled > 800 ? "block" : "none" }}
-            className="fixed bottom-5 right-5 z-50 cursor-pointer border border-[#1C2033] rounded-full w-8 p-[1px] transition-all"
+            style={{ display: scrolled > 400 ? "block" : "none" }}
+            className="fixed bottom-5 right-5 z-50 bg-[#1C2033] hover:-translate-y-2 active:scale-[0.95] cursor-pointer border border-[#1C2033] w-10 transition-all p-1"
             loading="lazy"
         ></img>
     );
