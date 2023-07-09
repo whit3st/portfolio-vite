@@ -24,6 +24,7 @@ export default function ScrollToTop() {
             onClick={() => window.scrollTo(0, 0)}
             style={{ display: scrolled > 800 ? "block" : "none" }}
             className="fixed bottom-5 right-5 z-50 cursor-pointer border border-[#1C2033] rounded-full w-8 p-[1px] transition-all"
+            loading="lazy"
         ></img>
     );
 }

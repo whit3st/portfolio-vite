@@ -7,7 +7,7 @@ export default function FooterLink({href, src}) {
             rel="noreferrer"
             
         >
-            <img src={src} alt={src + ' logo'} />
+            <img src={src} alt={src + ' logo'} loading='lazy'/>
         </a>
     );
 }

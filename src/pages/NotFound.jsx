@@ -7,7 +7,7 @@ export default function NotFound() {
         <Container>
             <Headline>Opps!</Headline>
             <SubHeadline>Page Not Found</SubHeadline>
-            <img src="/404.gif" className="absolute right-0 md:top-0 top-52 w-96" alt="" />
+            <img src="/404.gif" className="absolute right-0 md:top-0 top-52 w-96" alt="" loading="lazy" />
         </Container>
     );
 }

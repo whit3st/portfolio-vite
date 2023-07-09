@@ -12,6 +12,7 @@ export default function TechImage({ src, alt }) {
                 width={50}
                 height={50}
                 variants={variants}
+                loading="lazy"
             />
             <motion.label className="text-2xl " htmlFor="techImage" variants={variants}>
                 {alt.split(" ").shift()}
