@@ -22,11 +22,29 @@ export default function Home() {
             </Container>
             <Headline>Projects</Headline>
             <ProjectContainer>
-                <ProjectImage src="skyvibes.png" />
+                <ProjectImage src="lotrdle.webp" />
+                <ProjectText>
+                    <SubHeadline>Lotrde</SubHeadline>
+                    <Description>
+                        Lotrdle is a Lord of the Rings wordle game.
+                        Each day, game selectes a different character from Lord of the Rings and you try to guess the character.
+                    </Description>
+                    <ButtonContainer>
+                        <SecondaryButton to="https://lotrdle.vercel.app/">
+                            Website
+                        </SecondaryButton>
+                        <SecondaryButton to="https://github.com/whit3st/wordle-lotr">
+                            Code
+                        </SecondaryButton>
+                    </ButtonContainer>
+                </ProjectText>
+            </ProjectContainer>
+            <ProjectContainer>
+                <ProjectImage src="skyvibes.webp" />
                 <ProjectText>
                     <SubHeadline>Skyvibes</SubHeadline>
                     <Description>
-                        Skyvibes.app is a forecast website that displays current
+                        Skyvibes is a forecast website that displays current
                         weather conditions and provides a seven-day forecast.
                     </Description>
                     <ButtonContainer>
@@ -40,7 +58,7 @@ export default function Home() {
                 </ProjectText>
             </ProjectContainer>
             <ProjectContainer>
-                <ProjectImage src="theeaters.png" />
+                <ProjectImage src="theeaters.webp" />
                 <ProjectText>
                     <SubHeadline>The Eaters</SubHeadline>
                     <Description>
